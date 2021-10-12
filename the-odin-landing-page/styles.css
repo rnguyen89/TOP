@@ -66,9 +66,96 @@ nav a {
 
 .hero-content a {
   text-decoration: none;
-  background-color: #2a7ae9;
+  background-color: #3882F6;
   color: white;
   padding: 4px 24px;
   border-radius: 25px;
   
+}
+
+.cards {
+  text-align: center;
+}
+
+.cards .container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.cards h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 24px 0;
+}
+
+.card {
+  width: 150px;
+  margin-bottom: 88px;
+}
+
+.card img {
+  border: 2px solid #3882F6;
+  border-radius: 25px;
+  margin-bottom: 8px;
+};
+
+/* not working */
+section.quote {
+  background-color: #E5E7EB;
+  padding: 88px 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* | */
+
+section.quote blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+}
+
+section.quote p {
+  text-align: right;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-around;
+  margin: 96px auto;
+  padding: 48px;
+  background-color: #3882F6;
+  color: white;
+  border-radius: 8px;
+}
+
+.cta-text h3 {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.cta-text p {
+  font-size: 14px;
+  color: #e4e5e6c5;
+}
+
+.cta-btn {
+  font-size: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  border: solid 2px white;
+  color: white;
+  padding: 4px 24px;
+  border-radius: 25px;
+  line-height: 1.8;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 24px 0;
 }
